@@ -1,0 +1,78 @@
+
+
+
+body {
+    background-color: #f5f5f5; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Clean, modern font */
+    color: #333; 
+}
+
+/* Style the header */
+header {
+    background-color: #0074b7; /* Blue header background */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #0074b7; /* Blue navigation background */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White text for better contrast */
+    font-weight: bold;
+}
+
+/* Style the main content area */
+.main-content {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* White content background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style headings and paragraphs */
+h1, h2, h3 {
+    color: #3f3838; /* Dark text color for headings */
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    color: #555; /* Slightly darker text for paragraphs */
+}
+
+/* Style links */
+a {
+    color: #0074b7; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #8a0000; /* Darker blue on hover */
+}
+
+button {
+    background-color: #333; /* Dark gray button background */
+    color: #fff; /* White text for buttons */
+}
+
+input[type="text"] {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Consistent font for input fields */
+    font-size: 16px;
+    border: 2px solid #ccc; /* Light gray border for input fields */
+    padding: 5px;
